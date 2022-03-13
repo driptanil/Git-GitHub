@@ -1,50 +1,50 @@
 <img src="https://images.ctfassets.net/em6l9zw4tzag/s2J4qM7DvYAzmqCUnC5QQ/6e5762c0794a046129e1198e5c0a8d8d/FaveTools.gif"><br>
 # <img src="https://i.imgur.com/6KXBKjB.gif" width="100"> Git & GitHub <img src="https://media0.giphy.com/avatars/mwooodward/cIe5MvDvX4Vc.gif" width="100"><br>
 - `git init` initialises an empty git repository in the current directory. A “.git” file is created and hidden.
-![700](git1.png)
+![700](images/git1.png)
     
 - `ls -a` shows all the files including the hidden files.
-![700](git2.png)
+![700](images/git2.png)
 
 - `touch hello.text` will create a file named “hello.txt”.
-![700](git3.png)
+![700](images/git3.png)
 - `git status` shows the status of the git repository.
-![700](git4.png)
+![700](images/git4.png)
 
 - `git add names.txt` stages the changes of the “hello.txt” file, then `git status` shows “Changes to be committed: hello.txt”. 
-![700](git5.png)
+![700](images/git5.png)
     
 - `git commit -m "names.txt file added"` commits to all the staged changes. “-m” adds name to the commit.
-![700](git6.png)
+![700](images/git6.png)
 - `git log` will show all the history of all commits.
-![700](git9.png)
+![700](images/git9.png)
 - `vi names.txt` allows editing the file in the console, when files are modified after they are needed to be staged again.
-![700](git7.png)
+![700](images/git7.png)
 - `git restore --staged names.txt` will remove “names.txt” from staged (only works after first commit).
-![700](git8.png)
+![700](images/git8.png)
 
 - `git reset <commit_id>` will revert to the commit.
-![700](git10.png)
+![700](images/git10.png)
 - `git stash` will neither commit the changes nor will delete all the changes, it just stores the changes somewhere else.
-![700](git11.png)
+![700](images/git11.png)
 - `git stash pop` will bring back all the changes stored somewhere else and will be staged.
-![700](git12.png)
+![700](images/git12.png)
 - `git stash clear` will remove all the changes that haven’t been staged or committed will be removed. 
-![700](git13.png)
+![700](images/git13.png)
 
 - A __Repository__ contains all of your project's files and each file's revision history.
 
 - `git push <repository-link>` will push all the commits to the “main” branch of the GitHub Repository. __Does not work, now token are used for authentication of user.__ [GitHub Personal Access Token Documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-![700](git14.png)
+![700](images/git14.png)
 - [GitHub Personal Access Token](https://github.com/settings/tokens):
-![700](git16.png)
+![700](images/git16.png)
 - Click on `Generate new token`
 - Choose the permissions and validity of the token
 - Copy the token (Store it somewhere safe)
 
 - `git push https://<token>@github.com/<username>/<repository_link>` will push all the commits to the repository.
-![700](git18.png)
-![700](git17.png)
+![700](images/git18.png)
+![700](images/git17.png)
 - What is the use of __Branches__?
 
 - When adding a feature or repairing a bug then always create a new branch.
@@ -54,25 +54,25 @@
 
 - `git branch feature` creates a new branch named “feature”
 - By default “HEAD” points to the “main” or “master” branch. Generally, commits are made on the “HEAD” inside the “.git” folder.
-![700](git19.png)
+![700](images/git19.png)
 - `git checkout feature` is used to change “HEAD” which will now point to the “feature” branch.
-![700](git20.png)
+![700](images/git20.png)
 - Now commits are made to the “feature” branch and the “main” or “master” branch remains unchanged.
-![700](git21.png)
-![700](git22.png)
+![700](images/git21.png)
+![700](images/git22.png)
 - `git merge feature` is used to update and merge all the changes made in the “feature” branch to the “main” or “master” branch.
-![700](git23.png)
+![700](images/git23.png)
 - `git push origin master` will push all the commits to the “master” branch of GitHub Repository.
-![700](git24.png)
+![700](images/git24.png)
 - How to make contributions to the existing GitHub repository?
 
 - No one except the owner of the GitHub repository is allowed to make changes directly to the repository.
 
 - `Fork` allows us to make a copy of the existing GitHub repository with our own ownership and in this repository, we are allowed to make changes directly.
-![](git25.png)
-![](git26.png)
+![700](images/git25.png)
+![700](images/git26.png)
 - `git clone https://github.com/driptanil/DSA-Bootcamp-Java` allows us to download all the source files of the forked repository.
-![](git27.png)
+![700](images/git27.png)
 - The original repository which has been forked is known as the Upstream URL.
   `git remote add origin https://<token>@github.com/driptanil/DSA-Bootcamp-Java.git` adds Upstream URL.
   
