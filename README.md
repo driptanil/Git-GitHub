@@ -45,12 +45,19 @@
 - `git push https://<token>@github.com/<username>/<repository_link>` will push all the commits to the repository.
 ![700](images/git18.png)
 ![700](images/git17.png)
+- Using SSH Keys:
+1. Use `git clone git@github.com:<user>/<repository>.git` to clone repository. ![600](images/git31.png)
+2. Use `ssh-keygen -o` to generate SSH key using git. ![600](images/git32.png)
+3. Use `cat ~/.ssh/id_rsa.pub` (this file contains the private SSH key) and select the contents and copy using `Ctrl + Shift + C`. ![600](git33.png)
+4. Open `https://github.com/settings/keys` (adding the private SSH key to GitHub), click on `new SSH keys`. ![600](git34.png) Paste the copied key in `key` section and add a `title`. ![600](git35.png) 
+5. Click on `Add SSH key`.
+
 - What is the use of __Branches__?
 
 - When adding a feature or repairing a bug then always create a new branch.
 - Never commit directly commit to the “main” or “master” branch which is the default branch of a GitHub Repository. Because in Open-Source Projects, code in “main” is used by everyone, and maybe our code may have some errors and is not finalised yet.
 
-- `git remote add origin https://<token>@github.com/<username>/<repository_link>` will link the working directory to the GitHub repository.
+- `git remote add origin https://github.com/<username>/<repository_link>` will link the working directory to the GitHub repository.
 
 - `git branch feature` creates a new branch named “feature”
 - By default “HEAD” points to the “main” or “master” branch. Generally, commits are made on the “HEAD” inside the “.git” folder.
@@ -74,7 +81,6 @@
 - `git clone https://github.com/driptanil/DSA-Bootcamp-Java` allows us to download all the source files of the forked repository.
 ![700](images/git27.png)
 - The original repository which has been forked is known as the Upstream URL.
-  `git remote add origin https://<token>@github.com/driptanil/DSA-Bootcamp-Java.git` adds Upstream URL.
   
 - How to merge all the changes made in the forked repository to the original repository?
     - “Pull request” is a request to pull all the changes made in the forked repository to Upstream Repository,
