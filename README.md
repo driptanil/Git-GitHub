@@ -48,8 +48,8 @@
 - Using SSH Keys:
 1. Use `git clone git@github.com:<user>/<repository>.git` to clone repository. ![600](images/git31.png)
 2. Use `ssh-keygen -o` to generate SSH key using git. ![600](images/git32.png)
-3. Use `cat ~/.ssh/id_rsa.pub` (this file contains the private SSH key) and select the contents and copy using `Ctrl + Shift + C`. ![600](git33.png)
-4. Open `https://github.com/settings/keys` (adding the private SSH key to GitHub), click on `new SSH keys`. ![600](git34.png) Paste the copied key in `key` section and add a `title`. ![600](git35.png) 
+3. Use `cat ~/.ssh/id_rsa.pub` (this file contains the private SSH key) and select the contents and copy using `Ctrl + Shift + C`. ![600](images/git33.png)
+4. Open `https://github.com/settings/keys` (adding the private SSH key to GitHub), click on `new SSH keys`. ![600](images/git34.png) Paste the copied key in `key` section and add a `title`. ![600](images/git35.png) 
 5. Click on `Add SSH key`.
 
 - What is the use of __Branches__?
