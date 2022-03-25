@@ -1,69 +1,69 @@
 <img src="https://images.ctfassets.net/em6l9zw4tzag/s2J4qM7DvYAzmqCUnC5QQ/6e5762c0794a046129e1198e5c0a8d8d/FaveTools.gif"><br>
 # <img src="https://i.imgur.com/6KXBKjB.gif" width="100"> Git & GitHub <img src="https://media0.giphy.com/avatars/mwooodward/cIe5MvDvX4Vc.gif" width="100"><br>
 - `git init` initialises an empty git repository in the current directory. A “.git” file is created and hidden.
-![700](images/git1.png)
+![700](images/gitinit.png)
     
 - `ls -a` shows all the files including the hidden files.
-![700](images/git2.png)
+![700](images/ls-a.png)
 
 - `touch hello.text` will create a file named “hello.txt”.
-![700](images/git3.png)
+![700](images/touch.png)
 - `git status` shows the status of the git repository.
-![700](images/git4.png)
+![700](images/gitstatus.png)
 
 - `git add names.txt` stages the changes of the “hello.txt” file, then `git status` shows “Changes to be committed: hello.txt”. 
-![700](images/git5.png)
+![700](images/gitstatus1.png)
     
 - `git commit -m "names.txt file added"` commits to all the staged changes. “-m” adds name to the commit.
-![700](images/git6.png)
+![700](images/gitcommit-m.png)
 - `git log` will show all the history of all commits.
-![700](images/git9.png)
+![700](images/gitlog.png)
 - `vi names.txt` allows editing the file in the console, when files are modified after they are needed to be staged again.
 ![700](images/git7.png)
 - `git restore --staged names.txt` will remove “names.txt” from staged (only works after first commit).
-![700](images/git8.png)
+![700](images/gitrestore--staged.png)
 
 - `git reset <commit_id>` will revert to the commit.
-![700](images/git10.png)
+![700](images/gitreset.png)
 - `git stash` will neither commit the changes nor will delete all the changes, it just stores the changes somewhere else.
-![700](images/git11.png)
+![700](images/gitstash.png)
 - `git stash pop` will bring back all the changes stored somewhere else and will be staged.
-![700](images/git12.png)
+![700](images/gitstashpop.png)
 - `git stash clear` will remove all the changes that haven’t been staged or committed will be removed. 
-![700](images/git13.png)
+![700](images/gitstashclear.png)
 
 - A __Repository__ contains all of your project's files and each file's revision history.
 
 - `git push <repository-link>` will push all the commits to the “main” branch of the GitHub Repository. __Does not work, now token are used for authentication of user.__ [GitHub Personal Access Token Documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-![700](images/git14.png)
+![700](images/gitpush.png)
 - [GitHub Personal Access Token](https://github.com/settings/tokens):
-![700](images/git16.png)
+![700](images/personalaccesstoken.png)
 - Click on `Generate new token`
 - Choose the permissions and validity of the token
 - Copy the token (Store it somewhere safe)
 
 - `git push https://<token>@github.com/<username>/<repository_link>` will push all the commits to the repository.
-![700](images/git18.png)
-![700](images/git17.png)
+![700](images/gitpushwithtoken.png)
+![700](images/gitpushwithtoken2.png)
 - Using SSH Keys:
-1. Use `git clone git@github.com:<user>/<repository>.git` to clone repository. ![600](images/git31.png)
-2. Use `ssh-keygen -o` to generate SSH key using git. ![600](images/git32.png)
-3. Use `cat ~/.ssh/id_rsa.pub` (this file contains the private SSH key) and select the contents and copy using `Ctrl + Shift + C`. ![600](images/git33.png)
-4. Open `https://github.com/settings/keys` (adding the private SSH key to GitHub), click on `new SSH keys`. ![600](images/git34.png) Paste the copied key in `key` section and add a `title`. ![600](images/git35.png) 
-5. Click on `Add SSH key`.
+	1. Use `git clone git@github.com:<user>/<repository>.git` to clone repository. ![600](images/gitclonewithssh.png)
+	2. Use `ssh-keygen -o` to generate SSH key using git. ![600](images/ssh-keygen.png)
+	3. Use `cat ~/.ssh/id_rsa.pub` (this file contains the private SSH key) and select the contents and copy using `Ctrl + Shift + C`. ![600](images/catsshprivatetoken.png)
+	4. Open `https://github.com/settings/keys` (adding the private SSH key to GitHub), click on `new SSH keys`. ![600](images/newsshkeys.png) Paste the copied key in `key` section and add a `title`. ![600](images/addsshkey.png) 
+	5. Click on `Add SSH key`.
 
 - What is the use of __Branches__?
 
 - When adding a feature or repairing a bug then always create a new branch.
 - Never commit directly commit to the “main” or “master” branch which is the default branch of a GitHub Repository. Because in Open-Source Projects, code in “main” is used by everyone, and maybe our code may have some errors and is not finalised yet.
 
-- `git remote add origin https://github.com/<username>/<repository_link>` will link the working directory to the GitHub repository.
+- `git remote add origin https://github.com/<username>/<repository_link>` will link the working directory to the GitHub repository. ![600](images/gitremoteaddorigin.png)
 
 - `git branch feature` creates a new branch named “feature”
 - By default “HEAD” points to the “main” or “master” branch. Generally, commits are made on the “HEAD” inside the “.git” folder.
-![700](images/git19.png)
+![700](images/gitbranch.png)
 - `git checkout feature` is used to change “HEAD” which will now point to the “feature” branch.
-![700](images/git20.png)
+![700](images/gitcheckout.png)
 - Now commits are made to the “feature” branch and the “main” or “master” branch remains unchanged.
 ![700](images/git21.png)
 ![700](images/git22.png)
@@ -215,3 +215,58 @@ There are 2 ways to update the forked repository:
         ![Screenshot_20220114_162503.png](Git%20&%20GitH%201b90f/Screenshot_20220114_162503.png)
         
         ![Screenshot_20220114_162733.png](Git%20&%20GitH%201b90f/Screenshot_20220114_162733.png)
+
+
+## Git Professionals
+
+### Perfect Git Commit
+
+- File staging helps in better commits, (easier to manage, review code and adding commit messages).
+- Use `git diff <file>`, to view the changes made to the not staged file. ![550](images/gitdiff.png)
+- Use `git -p` to stage certain chucks of changes in a file. ![550](images/gitp.png)
+- ![500]()
+	- `y` -> stage hunk
+	- `n` -> do not stage hunk
+	- `a` -> stage all remaining hunks
+	- `d` -> do not stage any remaining hunks
+	- `s` -> split the current hunk
+	- `e` -> manually edit the current hunk
+
+- Use `git commit` to open a text editor (default: vi editor, or use `git config --global core.editor <editor_name>`)
+
+- Format for commit message: 
+
+	1. 1st line: Subject
+	2. 2nd line: ``<blank>
+	3. 3rd line: Body
+	   a. What is now different than before?
+	   b. What is the reason for the change?
+	   c. Is there anything to watch out for / anything particularly remarkable 
+
+#### Branching Strategies
+
+##### Convention:
+ (agree on a Branching Work-flow in a team)
+
+1. Git allows users to create branches - learning it for better usage would improve the work-flow
+2. A written best practice / strategy to ideally structure work in between team members
+3. Team members, team size and type of project plays a huge role in managing project releases.
+4. Helping new on-board team members to understand the work-flow to reduce conflicts
+
+##### Integrating Changes & Structuring Releases
+
+###### Mainline Development
+(always be integrating)
+
+-> few branches
+-> relatively small commit
+-> high-quality testing & QA standards
+![600](images/mainline.svg)
+
+
+###### State, Release, and Feature Branches
+(Branches Enhance Structures & Workflows)
+
+-> different types of branches
+-> fulfil different types of jobs
+![600](branches.svg)
