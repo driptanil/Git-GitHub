@@ -67,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 423,
-    "collapsed": true
+    "width": 423
   },
   "right": {
     "id": "e832f17a60fdad76",
@@ -116,14 +115,13 @@
   "active": "a16536c5108f4564",
   "lastOpenFiles": [
     "README.md",
+    "Untitled.md",
+    "Git Basics.md",
+    "Git Branches.md",
     "Git-Github.md",
     "Java/15-complexity/15-complexity.md",
     "Java/06-linear-search/06-linear-search.md",
     "Java/10-selection-sort/10-selection-sort.md",
-    "Java/03-conditionals-loops/03-conditionals-loops.md",
-    "Java/02-first-java/02-first-java.md",
-    "Java/01-flow-of-program/01-flow-of program.md",
-    "Java/14-recursion/14-recursion.md",
-    "README.svg"
+    "Java/03-conditionals-loops/03-conditionals-loops.md"
   ]
 }
