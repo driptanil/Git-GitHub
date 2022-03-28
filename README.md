@@ -9,6 +9,8 @@
     <p style="text-indent: 2em;">
         <img src="readme/bullet.gif" width="40">
         <a href="https://www.gitkraken.com/"><img src="https://1v5ymx3zt3y73fq5gy23rtnc-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/gitkraken-keif-mono-teal-sq.svg" align="top" alt="Git-Kraken" width="35"/>   Git Kraken</a>
+	</p>
+	<p style="text-indent: 2em;">
         <img src="readme/bullet.gif" width="40">
         <a href="https://obsidian.md/"><img src="https://i.imgur.com/Wa6wkgS.png" alt="Obsidian" width="35"/> Obsidian</a>
     </p>
