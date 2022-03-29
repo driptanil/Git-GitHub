@@ -7,5 +7,6 @@
   "alwaysUpdateLinks": true,
   "spellcheck": true,
   "foldIndent": true,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "useMarkdownLinks": false
 }

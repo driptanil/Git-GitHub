@@ -48,22 +48,44 @@ What is the use of __Branches__?
   ![700](images/gitpush-uorigin2.png)
 ##### Tracking Connection
 - By default, branches in git have no relation with each other. 
-- A Tracking Connection is allows local branch to track remote branch 
-- It allows `git push` & `git pull` in place of `git push origin <branch>` 
-- Git also informs about unpushed or unpulled files.
+- `git checkout --track <remote_branch>` helps establish a tracking connection and adds the remote branch to locally.
+  ![700](images/gitcheckout--track.png)
+- `git branch --track <branch_name> <remote_branch>` helps establish a tracking connection which allows branch to track remote branch.
+  ![700](images/gitbranch--track.png)
+- It allows `git push` & `git pull` in place of `git push origin <branch>` and  also informs about unpulled and unpushed files using `git branch -v`.
 
-- -> `git branch --track <local_branch><remote_branch>`
+### Pulling Branch
+- `git pull` will pull all the changes in remote branch to local branch.
 
-- `git push origin master` will push all the commits to the “master” branch of GitHub Repository. 
-![700](images/git24.png)
-- How to make contributions to the existing GitHub repository?
+### Pushing Branch
+- `git push` will push all the changes in local branch to remote branch.
+  ![700](images/gitpush2.png)
 
-- No one except the owner of the GitHub repository is allowed to make changes directly to the repository.
+### Deleting Branch
+- `git branch -d <branch>` will delete the branch, but it will not remove the branch which is currently head.
+  ![700](images/gitbranch-d.png)
+  ![700](images/gitbranch-d2.png)
+- `git branch -D <branch>` will force delete the branch with not pushed files.
+  ![700](images/gitbranch-D1.png)
+- `git push origin --delete <branch>` will remove delete remote branches.
+  ![700](images/deleteremotebranch.png)
+  ![700](images/gitpushorigin--delete.png)
 
-- `Fork` allows us to make a copy of the existing GitHub repository with our own ownership and in this repository, we are allowed to make changes directly.
-![700](images/git25.png)
-![700](images/git26.png)
-- `git clone https://github.com/driptanil/DSA-Bootcamp-Java` allows us to download all the source files of the forked repository.
-![700](images/git27.png)
-- The original repository which has been forked is known as the Upstream URL.
-  
+### Merging Branch
+- `git merge <branch>` integrates the changes of the branch in the local head branch.
+  ![700](images/merge.png)
+  ![700](images/mergebranch1.png)
+  ![700](images/gitmerge.png)
+  ![700](images/mergebranch2.png)
+
+### Rebasing Branch
+- `git rebase <branch>` integrates the changes of branch with the local head branch.
+  ![520](images/rebase.png)
+  ![700](images/rebasebranch1.png)
+  ![700](images/gitrebase.png)
+  ![700](images/rebasebranch2.png)
+
+### Comparing Branches
+- `git log <branch>..<another_branch>` displays the commits which are made in a branch but not in other branch.
+  ![700](images/comparingbranches.png)
+  ![700](images/gitlogbranch.png)

@@ -1,4 +1,4 @@
-
+# Git Basics
 - __Version control__ is a system that records changes to a file or set of files over time so that you can recall specific versions later.
 - A __Repository__ contains all of your project's files and each file's revision history.
 
@@ -55,8 +55,11 @@
 - `git stash clear` will remove all the changes that haven’t been staged or committed will be removed. 
 ![700](images/gitstashclear.png)
 
+### Adding Origin
+- `git remote add origin https://github.com/<username>/<repository_link>` will link the working directory to the GitHub repository. ![600](images/gitremoteaddorigin.png)
+
 ### Git Push
-- `git push <repository-link>` will push all the commits to the “main” branch of the GitHub Repository. __Does not work, now token are used for authentication of user.__ [GitHub Personal Access Token Documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+- `git push <repository-link>` or `git push origin` will push all the commits made in local git directory to remote repository. __Does not work, now token are used for authentication of user.__ [GitHub Personal Access Token Documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 ![700](images/gitpush.png)
 ##### [GitHub Personal Access Token](https://github.com/settings/tokens):
 ![700](images/personalaccesstoken.png)
@@ -75,3 +78,16 @@
 4. Open `https://github.com/settings/keys` (adding the private SSH key to GitHub), click on `new SSH keys`. ![600](images/newsshkeys.png) Paste the copied key in `key` section and add a `title`. ![600](images/addsshkey.png) 
 5. Click on `Add SSH key`.
 
+### Pulling Changes
+- `git pull origin` will pull all the commits made in the remote repository to the local git directory.
+
+### Cloning Repository
+- `git clone <repository_link>` will download all the files in the remote repository to a local git directory.
+
+## How to make contributions to the existing GitHub repository?
+
+### Forking a Repository
+- No one except the owner of the GitHub repository is allowed to make changes directly to the repository.
+- `Fork` allows us to make a copy of the existing GitHub repository with our own ownership and in this repository, we are allowed to make changes directly.
+- The original repository which has been forked is known as the Upstream URL.
+  

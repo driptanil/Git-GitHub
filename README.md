@@ -16,7 +16,7 @@
     </p>
 
 <br>
-<h3><img align="left" src="readme/progress.gif" width="30">⠀Progress: <img src="https://progress-bar.dev/25?title=1/4"></h3>
+<h3><img align="left" src="readme/progress.gif" width="30">⠀Progress: <img src="https://progress-bar.dev/50?title=2/4"></h3>
 
 <table>
 	<thead align="center">
@@ -34,12 +34,12 @@
 		</tr>
 		<tr>
 			<td><a href="https://github.com/driptanil/Git-GitHub/tree/main/Git-Branches.md">Git Branches</a></td>
-			<td><img src="https://progress-bar.dev/50?title=⚠️ "> </td>
+			<td><img src="https://progress-bar.dev/100?title=✅ "> </td>
 			<td><a href="https://youtu.be/e2IbNHi4uCI">Git Branches Tutorial</a></td>
 		</tr>
 		<tr>
 			<td><a href="https://github.com/driptanil/Git-GitHub/tree/main/Git-for-Professionals.md">Git for Professionals</a></td>
-			<td><img src="https://progress-bar.dev/0?title=⛔⠀"> </td>
+			<td><img src="https://progress-bar.dev/50?title=🚧⠀"> </td>
 			<td><a href="https://youtu.be/Uszj_k0DGsg">Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git</a></td>
 		</tr>
 		<tr>
