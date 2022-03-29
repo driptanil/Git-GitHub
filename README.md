@@ -16,7 +16,7 @@
     </p>
 
 <br>
-<h3><img align="left" src="readme/progress.gif" width="30">⠀Progress: <img src="https://progress-bar.dev/78?title=1/4"></h3>
+<h3><img align="left" src="readme/progress.gif" width="30">⠀Progress: <img src="https://progress-bar.dev/25?title=1/4"></h3>
 
 <table>
 	<thead align="center">
