@@ -49,3 +49,11 @@
 		</tr>
 	</tbody>
 </table>
+<p>
+	<h3> <img src="https://i.pinimg.com/originals/de/9e/b6/de9eb637d1dac9a77a7f3822ed57ce07.gif" width=40> Git Tutorial links: </h3>
+		<h4>
+		<p><img src="readme/bullet.gif" width="40"> <a href="https://www.atlassian.com/git/tutorials"><img src="readme/atlassian.png" width=25 align=top> Atlassian Git Tutorial</a>
+		</p>
+		<p><img src="readme/bullet.gif" width="40"><a href="https://git-scm.com/book/en/v2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png" width=25 align=top> Git-scm Pro Git Book</a>
+		</h4></p>
+</p>
