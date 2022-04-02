@@ -1,5 +1,7 @@
 {
-  "baseFontSize": 17,
-  "translucency": true,
-  "cssTheme": "Royal Velvet"
+  "baseFontSize": 19,
+  "translucency": false,
+  "cssTheme": "Everforest",
+  "theme": "obsidian",
+  "baseFontSizeAction": true
 }
