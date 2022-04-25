@@ -28,22 +28,22 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td><a href="https://github.com/driptanil/Git-GitHub/tree/main/Git-Basics.md">Git Basics</a></td>
+			<td><a href="https://github.com/driptanil/Git-GitHub/tree/main/01-Git-Basics">Git Basics</a></td>
 			<td><img src="https://progress-bar.dev/100?title=✅⠀"> </td>
 			<td><a href="https://youtu.be/RGOj5yH7evk">Git and GitHub for Beginners - Crash Course</a></td>
 		</tr>
 		<tr>
-			<td><a href="https://github.com/driptanil/Git-GitHub/tree/main/Git-Branches.md">Git Branches</a></td>
+			<td><a href="https://github.com/driptanil/Git-GitHub/tree/main/02-Git-Branches">Git Branches</a></td>
 			<td><img src="https://progress-bar.dev/100?title=✅ "> </td>
 			<td><a href="https://youtu.be/e2IbNHi4uCI">Git Branches Tutorial</a></td>
 		</tr>
 		<tr>
-			<td><a href="https://github.com/driptanil/Git-GitHub/tree/main/Git-for-Professionals.md">Git for Professionals</a></td>
+			<td><a href="https://github.com/driptanil/Git-GitHub/tree/main/03-Git-Professionals">Git for Professionals</a></td>
 			<td><img src="https://progress-bar.dev/50?title=🚧⠀"> </td>
 			<td><a href="https://youtu.be/Uszj_k0DGsg">Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git</a></td>
 		</tr>
 		<tr>
-			<td><a href="https://github.com/driptanil/Git-GitHub/tree/main/Git-Advanced.md">Git Advanced</a></td>
+			<td><a href="https://github.com/driptanil/Git-GitHub/tree/main/04-Git-Advanced">Git Advanced</a></td>
 			<td><img src="https://progress-bar.dev/0?title=⛔⠀"> </td>
 			<td><a href="https://youtu.be/qsTthZi23VE">Advanced Git Tutorial - Interactive Rebase, Cherry-Picking, Reflog, Submodules and more</a></td>
 		</tr>

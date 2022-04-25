@@ -1,7 +1,7 @@
 {
-  "baseFontSize": 19,
+  "baseFontSize": 18,
   "translucency": false,
-  "cssTheme": "Everforest",
-  "theme": "obsidian",
+  "cssTheme": "Primary",
+  "theme": "moonstone",
   "baseFontSizeAction": true
 }
