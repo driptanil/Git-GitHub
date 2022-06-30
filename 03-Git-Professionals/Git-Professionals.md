@@ -4,9 +4,9 @@
 ### Perfect Git Commit
 
 - File staging helps in better commits, (easier to manage, review code and adding commit messages).
-- Use `git diff <file>`, to view the changes made to the not staged file. ![550](images/gitdiff.png)
-- Use `git -p` to stage certain chucks of changes in a file. ![600](images/gitp.png)
-- ![650](images/gitadd-p2.png)
+- Use `git diff <file>`, to view the changes made to the not staged file. ![550](/images/gitdiff.png)
+- Use `git -p` to stage certain chucks of changes in a file. ![600](/images/gitp.png)
+- ![650](/images/gitadd-p2.png)
 	- `y` -> stage hunk
 	- `n` -> do not stage hunk
 	- `a` -> stage all remaining hunks
@@ -43,7 +43,7 @@
 -> few branches
 -> relatively small commit
 -> high-quality testing & QA standards
-![600](images/mainline.svg)
+![600](/images/mainline.svg)
 
 
 ##### State, Release, and Feature Branches
@@ -51,10 +51,10 @@
 
 -> different types of branches
 -> fulfil different types of jobs
-![600](branches.svg)
+![600](/images/branches.svg)
 
 #### Long-Running & Short-Lived Branches
-![600](images/longshortrunningbranches.png)
+![600](/images/longshortrunningbranches.png)
 
 ##### Long Running Branches
 - Long Running Branches are the branches which exist through out the project.
@@ -72,20 +72,20 @@
 
 #### GitHub Flow
 - It consists of only 1 long running branch (main) and working changes are made in short lived branches.
-  ![600](images/branches.svg)
+  ![600](/images/branches.svg)
 #### Git-Flow
 - It consists of 2 long running branches (main + develop) and short lived branches (feature, release, hotfixes).
 
 ##### Develop Branch
 - The develop branch serves as an integration branch of feature.
-  ![650](images/gitflowdevelop.svg)
+  ![650](/images/gitflowdevelop.svg)
 ###### Creating develop branch
 - Using git, `git branch develop` & `git push -u origin develop`
 - Using git-flow extension, `git flow init`
 
 ##### Feature Branch
 - The _feature_ branch uses _develop_ as their parent branch and feature never directly interacts with _main_.
-  ![650](images/gitflowfeature.svg)
+  ![650](/images/gitflowfeature.svg)
 ###### Creating feature branch
 - Using git, `git checkout develop` & `git checkout -b feature_branch`
 - Using git-flow extension, `git flow feature start feature_branch`
@@ -99,7 +99,7 @@
 - After _develop_ branch has acquired enough features for a release.
 - A _release_ branch is branched off _develop_ branch.
 - Documentations, bug fixes, and release-oriented tasks of new features are pushed to _release_ branch.
-  ![650](images/gitflowrelease.svg)
+  ![650](/images/gitflowrelease.svg)
 - Using git, `git checkout develop` & `git checkout -b release/<version>`.
 - Using git flow extension, `git flow release start <version>`.
 - Once _release_ branch is ready, it is merged to _main_ branch.
@@ -111,7 +111,7 @@
 - The _hotfix_ branched off _main_ branch, for quick patch production releases.
 - As soon as the fix is complete, it is merged into _main_ & _develop_ branch.
 - A dedicated branch for bug fixes, helps team to address issues and speed up the release cycle.
-  ![600](images/gitflowhotfix.svg)
+  ![600](/images/gitflowhotfix.svg)
   - Using git, `git checkout main` & `git checkout -b hotfix_branch`.
   - Using git flow extension `git flow hotfix start hotfix_branch`.
 
