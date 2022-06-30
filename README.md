@@ -1,8 +1,8 @@
 <img src="readme/background.jpeg"><br>
 <h1 align="center"><img src="readme/git.gif" width="100" align="top"> Git & GitHub <img src="readme/github.gif" width="100" align="top"><br></h1>
 <img src="https://thumbs.gfycat.com/LightTimelyBlacklab-max-1mb.gif" width="200" align="left">
-<img align="right" width=300px alt="side_sticker" src="readme/octacat.gif">
-<h3><img src="https://media2.giphy.com/media/dAoHbGjH7k5ZTeQeBI/giphy.gif" width="30px" align="top">⠀My Gratitude to  <img src="https://pbs.twimg.com/profile_images/1276770212927410176/qTgTIejk_400x400.jpg" width=40px align="top"> <a href="https://github.com/freecodecamp">@freecodecamp</a></h3>
+<img align="right" width=300 alt="side_sticker" src="readme/octacat.gif">
+<h3><img src="https://media2.giphy.com/media/dAoHbGjH7k5ZTeQeBI/giphy.gif" width="30" align="top">⠀My Gratitude to  <img src="https://pbs.twimg.com/profile_images/1276770212927410176/qTgTIejk_400x400.jpg" width=40px align="top"> <a href="https://github.com/freecodecamp">@freecodecamp</a></h3>
 <h3>
 	<img src="https://c.tenor.com/ePTe6kEJ1oEAAAAM/hammer.gif" width="40" align="left">⠀Tools  I use :
 </h3>
