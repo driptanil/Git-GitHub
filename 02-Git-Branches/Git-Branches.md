@@ -1,4 +1,4 @@
-# Git Branches
+	# Git Branches
 What is the use of __Branches__?
 
 - When adding a feature or repairing a bug then always create a new branch.
@@ -26,8 +26,8 @@ What is the use of __Branches__?
 ![700](/images/gitcheckout.png)
 
 - Now commits are made to the checked out branch and the “main” or “master” branch remains unchanged.
-![700](/images/git21.png)
-![700](/images/git22.png)
+![700](/images/gitswitching.png)
+![700](/images/gitswitching2.png)
 
 ### Renaming Branches
 ##### Local Branches
@@ -39,7 +39,7 @@ What is the use of __Branches__?
 ##### Remote Branches
 ### Git Merge
 - `git merge <branch>` is used to update and merge all the changes made in the “feature” branch to the “main” or “master” branch.
-![700](/images/git23.png)
+![700](/images/gitmergeremote.png)
 
 ### Publishing Branches
 - `git push -u origin <branch>` will push the local branch to remote.
